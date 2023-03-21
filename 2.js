@@ -15,7 +15,7 @@ function calcGpa(grades, gradesNum) {
     const qualtyPoints = qPoints(grades, gradesNum);
     const totalC = grades.length * 4;
     const totalQualtyPoints = totalCridet(qualtyPoints);
-    return gpaCalc = totalQualtyPoints / totalC;
+    return totalQualtyPoints / totalC;
 }
 const jGpa = calcGpa(jamesDoe, letterGrade);
 showOnHtml(`James Doe GPA is : ${jGpa}`);

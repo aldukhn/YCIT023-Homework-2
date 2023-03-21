@@ -31,17 +31,13 @@ for (const number of numbers) {
 
 const average = sum / arrayLength;
 
-console.log('Average:', average);
-console.log('Highest number:', max);
-console.log('Lowest number:', min);
-console.log('Even count:', evenCount);
-console.log('Odd count:', oddCount);
 
-showOnHtml(`Average${average}
-Highest number${max}
-Lowest number${min}
-Even count${evenCount}
-Odd count${oddCount}`)
+
+showOnHtml(`Average:${average}
+Highest number:${max}
+Lowest number:${min}
+Even count:${evenCount}
+Odd count:${oddCount}`)
 
 function showOnHtml(outPut) {
     document.getElementById('outPut').textContent = outPut;
